@@ -33,7 +33,7 @@ class Sieve:
 
         return li
 
-    def prime_divisors_in_range(self,l,r):
+    def prime_in_range(self,l,r):
         lim = math.floor(math.sqrt(r))
         primes = self.all_primes(lim)
         dummy = [True]*(r-l+1)
